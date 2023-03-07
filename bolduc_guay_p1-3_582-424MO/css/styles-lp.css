@@ -1,0 +1,163 @@
+/*--------------------------------------------------------- 
+# Styles Généraux 
+---------------------------------------------------------*/
+@font-face {
+  font-family: Athena;
+  src: url(/assets/athena.ttf) format(truetype);
+}
+
+body{
+  font-family: Athena;
+}
+
+  /*--------------------------------------------------------- 
+# Nav Bar
+---------------------------------------------------------*/
+
+.navbar{
+  background-color: var(--noir);
+}
+
+.logo{
+  width: 25vw;
+}
+
+.footer{
+  background-color: var(--rougef);
+}
+
+.footertext{
+  color: white;
+}
+
+.footer{
+  width:100vw;
+}
+
+
+  /*--------------------------------------------------------- 
+# Section Héro 
+---------------------------------------------------------*/
+
+.apptext{
+  width: 200px;
+  height: 200px;
+}
+
+.TextePres{
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+.TexteElek{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.download1{
+  width: 150px;
+}
+
+.download2{
+  width: 160px;
+}
+
+.ContLeft{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 50px;
+  border: 5px solid black;
+  border-radius: 15px;
+  background-color: var(--rougep);
+}
+
+.ContRight{
+  display: flex;
+  justify-content: center;
+}
+
+.Iphone{
+  width: 200px;
+  margin: auto;
+}
+
+  /*--------------------------------------------------------- 
+# Section Fonctionnalités 
+---------------------------------------------------------*/
+
+.TitreFonct{
+  color: var(--blanc);
+  font-size: 40px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.ParaFonct{
+  color: var(--blanc);
+text-align: center;
+}
+
+.fonct{
+  background-color: var(--rougebase);
+}
+
+.cases{
+  background-color: var(--rougef);
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 5px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  
+}
+
+.TitreCase{
+  color: var(--blanc);
+  text-align: center;
+  font-size: 20px;
+}
+
+.TexteCase{
+  color: var(--blanc);
+  text-align: center;
+  font-size: 15px;
+}
+
+  /*--------------------------------------------------------- 
+# Section Témoins
+---------------------------------------------------------*/
+
+.temoin{
+  background-color: var(--noir);
+}
+
+.CaseTem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  border: 5px solid var(--blanc);
+  margin: 40px;
+  margin-left: 180px;
+  margin-right: 180px;
+  background-color: var(--rougebase);
+}
+
+.ImgTem{
+  padding-top: 10px;
+  width: 180px;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.TextTem{
+  text-align: center;
+  color: var(--blanc);
+  padding: 10px;
+}
