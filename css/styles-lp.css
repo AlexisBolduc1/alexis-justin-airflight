@@ -205,7 +205,7 @@ text-align: center;
 
 .Info{
   width: 100%;
-  background-image: url("assets/background2.jpg");
+  background-image: url("../assets/Background2.jpg");
   object-fit:contain;
 }
 
