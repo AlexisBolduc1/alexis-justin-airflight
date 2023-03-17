@@ -8,12 +8,12 @@
     <title>Landing Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/styles-lp.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles-lp.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <meta name="robots" content="noindex">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <link rel="icon" type="image/elektra-icon" href="../assets/utilisateur.jpg">
+    <link rel="icon" type="image/elektra-icon" href="assets/utilisateur.jpg">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#app">
@@ -27,7 +27,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <a class="navbar-brand" href="index.html"><img class="logo" src="../assets/elektra_blanc.png"></a>
+                <a class="navbar-brand" href="index.html"><img class="logo" src="assets/elektra_blanc.png"></a>
 
                 <!-- Navigation -->
 
@@ -46,7 +46,7 @@
                             <a href="#more" class="nav-link btn btn-outline-danger">En savoir plus</a>
                         </li>
                         <li class="nav-item mx-2">
-                            <a href="#info" class="nav-link btn btn-outline-danger">Infolettre</a>
+                            <a href="#horaire" class="nav-link btn btn-outline-danger">Horaire</a>
                         </li>
                         <li class="nav-item mx-2">
                             <a href="#faq" class="nav-link btn btn-outline-danger">FAQ</a>
@@ -64,22 +64,22 @@
                     <div class="ContLeft mx-auto">
                         <p class="TextePres">Un si grand évènement dans une si petite application</p>
                         <p class="TexteElek">ELEKTRA</p>
-                        <a href="https://www.apple.com/ca/fr/app-store/"><img src="../assets/appstore.png"
+                        <a href="https://www.apple.com/ca/fr/app-store/"><img src="assets/appstore.png"
                                 class="download1"></a>
-                        <a href="https://play.google.com/store/games"><img src="../assets/Googleplay.png"
+                        <a href="https://play.google.com/store/games"><img src="assets/Googleplay.png"
                                 class="download2"></a>
                     </div>
                 </div>
                 <div class="col-lg-12 col-xl-6">
                     <div class="ContRight">
-                        <iframe class="app my-5" src="/app/index.html"></iframe>
+                        <iframe class="app my-5" src="app/index.html"></iframe>
                     </div>
                 </div>
             </div>
         </div>
 
-        <section class="section-features" id="fonction">
-            <div class="container ">
+        <section class="section-features" data-bs-spy="scroll" data-bs-target="#fonction">
+            <div class="container">
                 <div class="row">
                     <h2 class="TitreFonct">Fonctionnalités</h2>
                     <p class="ParaFonct">En téléchargeant notre appli, vous allez profiter d'une foule de
@@ -148,18 +148,18 @@
             </div>
         </section>
 
-        <section class="view-more" id="more">
+        <section class="view-more">
             <h2 class="TitreFonct">Prévisualisez l'interface de l'appli</h2>
             <!-- Slider main container -->
             <div class="swiper swiper-screenshots">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
-                    <div class="swiper-slide"><img class="imgswiper d-block m-auto" src="../assets/screen_app/accueil-top.png"></a></div>
-                    <div class="swiper-slide"><img class="imgswiper d-block m-auto" src="../assets/screen_app/accueil-bas.png"></a></div>
-                    <div class="swiper-slide"><img class="imgswiper d-block m-auto" src="../assets/screen_app/artwork.png"></a></div>
-                    <div class="swiper-slide"><img class="imgswiper d-block m-auto" src="../assets/screen_app/form.png"></a></div>
-                    <div class="swiper-slide"><img class="imgswiper d-block m-auto" src="../assets/screen_app/modale.png"></a></div>
+                    <div class="swiper-slide"><img class="imgswiper d-block m-auto" src="assets/screen_app/accueil-top.png"></a></div>
+                    <div class="swiper-slide"><img class="imgswiper d-block m-auto" src="assets/screen_app/accueil-bas.png"></a></div>
+                    <div class="swiper-slide"><img class="imgswiper d-block m-auto" src="assets/screen_app/artwork.png"></a></div>
+                    <div class="swiper-slide"><img class="imgswiper d-block m-auto" src="assets/screen_app/form.png"></a></div>
+                    <div class="swiper-slide"><img class="imgswiper d-block m-auto" src="assets/screen_app/modale.png"></a></div>
                 </div>
 
                 <!-- If we need navigation buttons -->
@@ -169,8 +169,8 @@
         </section>
 
 
-        <section data-bs-spy="scroll" data-bs-target="#testimonials" id="testimonials">
-          <div class="temoin"> 
+        <section data-bs-spy="scroll" data-bs-target="#testimonials">
+            <div class="temoin"> 
             <div class="container section-testimonials">
                 <div class="row">
                     <h2 class="TitreFonct">Témoignages</h2>
@@ -180,7 +180,7 @@
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="card temCard">
                             <i class="bi bi-chat-quote quoteicon"></i>
-                            <img src="../assets/temoins/Tem1.jpg" class="card-img-top imgtemoin">
+                            <img src="assets/temoins/Tem1.jpg" class="card-img-top imgtemoin">
                             <h3 class="card-title">Jean Christophe</h3>
                             Super pratique! Avec la fonction amis on ne se perd jamais de vue!
                         </div>
@@ -188,7 +188,7 @@
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="card temCard">
                             <i class="bi bi-chat-quote quoteicon"></i>
-                            <img src="../assets/temoins/Tem2.jpg" class="card-img-top imgtemoin">
+                            <img src="assets/temoins/Tem2.jpg" class="card-img-top imgtemoin">
                             <h3 class="card-title">Stéphanie Lemay</h3>
                             Impossible de s’en passer pendant l’exposition!
                         </div>
@@ -198,7 +198,7 @@
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="card temCard">
                             <i class="bi bi-chat-quote quoteicon"></i>
-                            <img src="../assets/temoins/Tem3.jpg" class="card-img-top imgtemoin">
+                            <img src="assets/temoins/Tem3.jpg" class="card-img-top imgtemoin">
                             <h3 class="card-title">Philippe D'amours</h3>
                             La carte intégrée est super pratique!
                         </div>
@@ -207,7 +207,7 @@
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="card temCard">
                             <i class="bi bi-chat-quote quoteicon"></i>
-                            <img src="../assets/temoins/Tem4.jpg" class="card-img-top imgtemoin">
+                            <img src="assets/temoins/Tem4.jpg" class="card-img-top imgtemoin">
                             <h3 class="card-title">Louis Plante</h3>
                             Absolument nécessaire pour profiter pleinement de l’exposition!
                         </div>
@@ -217,7 +217,7 @@
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="card temCard">
                             <i class="bi bi-chat-quote quoteicon"></i>
-                            <img src="../assets/temoins/Tem5.jpg" class="card-img-top imgtemoin">
+                            <img src="assets/temoins/Tem5.jpg" class="card-img-top imgtemoin">
                             <h3 class="card-title">Mathieu Gagné</h3>
                             L’horaire est super pratique! Je n’ai pas manqué une seule performance!
                         </div>
@@ -226,7 +226,7 @@
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="card temCard">
                             <i class="bi bi-chat-quote quoteicon"></i>
-                            <img src="../assets/temoins/Tem6.jpg" class="card-img-top imgtemoin">
+                            <img src="assets/temoins/Tem6.jpg" class="card-img-top imgtemoin">
                             <h3 class="card-title">François Lanthier</h3>
                             Tout simplement génial! Certaines œuvres interagissent avec l’application en plus!
                         </div>
@@ -234,12 +234,12 @@
                 </div>
             </div>
         </section>
-      </div>
+    </div>
 
-        <section id="more">
+        <section data-bs-spy="scroll" data-bs-target="#more">
 
         </section>
-        <section class="FAQ" id="faq">
+        <section class="FAQ" data-bs-spy="scroll" data-bs-target="#faq">
             <div class="container">
                 <h2 class="TitreFonct">FAQ - Foire aux questions</h2>
                 <div class="accordion" id="accordionExample">
@@ -320,7 +320,7 @@
             </div>
         </section>
 
-        <section class="Info" data-bs-spy="scroll" data-bs-target="#infolettre" id="info">
+        <section class="Info" data-bs-spy="scroll" data-bs-target="#infolettre">
             <div class="container">
                 <div class="row col-0 col-md-6">
                     <div class="col-md-6 InfoBox">
@@ -391,7 +391,7 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="../js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
