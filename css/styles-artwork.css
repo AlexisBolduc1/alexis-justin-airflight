@@ -76,7 +76,7 @@ a {
 }
 
 .oeuvre {
-  background-image: url("/assets/artworks/1.png");
+  background-image: url("../assets/artworks/1.png");
   background-size: cover;
   -webkit-background-size: cover;
   width: 100%;
